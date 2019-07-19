@@ -1,0 +1,243 @@
+/* 			BACKGROUND CSS		*/
+
+body {
+    background-image: url("img/background.jpg"), linear-gradient(rgb(5, 1, 0), black);
+    background-repeat: no-repeat;
+}
+
+
+/* 			HEADER CSS 			*/
+
+.navbar {
+    background: linear-gradient(to bottom, rgba(0, 1, 22, 0.8), rgb(0, 3, 44, 0.4) 100%);
+}
+
+#navbarTogglerDemo {
+    display: flex;
+    margin-right: 2%;
+}
+
+nav.shrink {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60px;
+    padding-top: 0px;
+}
+
+.nav-item {
+    margin-right: 10%;
+    background: rgba(41, 70, 102, 0.6);
+    border-radius: 3%;
+}
+
+.nav-item:hover {
+    background: rgba(56, 97, 143, 0.6);
+}
+
+.navbar-nav>.active {
+    background-color: rgba(101, 131, 161, 0.6);
+}
+
+
+/* HEADER */
+
+.header {
+    width: 90%;
+    height: min-content;
+    margin: 0 auto;
+}
+
+#description>h2 {
+    font-family: 'Adobe Garamond';
+    color: rgb(125, 107, 57);
+}
+
+.header>.container {
+    display: inline;
+    margin: 0;
+}
+
+#description {
+    background-color: rgba(10, 17, 43, 0.4);
+}
+
+#description p {
+    color: white;
+    margin-top: 3%;
+    margin-right: 2%;
+    height: auto;
+    width: auto;
+    text-align: justify;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*		CONTENT CSS			*/
+
+.container-fluid {
+    margin-top: 5%;
+}
+
+
+/* Body-Container */
+
+.rotation-title,
+.rotation-title-new {
+    background: linear-gradient(to right, rgba(5, 1, 0, 0.6), transparent);
+    margin-right: 20%;
+}
+
+.rotation-title>h3 {
+    margin-left: 6%;
+    font-family: 'Adobe Garamond';
+    color: rgb(125, 107, 57);
+}
+
+.rotation-title-new>h3 {
+    margin-left: 6%;
+    margin-top: 3%;
+    font-family: 'Adobe Garamond';
+    color: rgb(125, 107, 57);
+}
+
+
+/*  Carousel    */
+
+#carousel-example-multi,
+#carousel-example-multi-new {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.carousel-multi-item .carousel-inner.v-2 .carousel-item.active,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-next,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-prev {
+    display: flex;
+    background-color: transparent;
+}
+
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-right.active,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-next {
+    transform: translateX(16.7%);
+}
+
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-left.active,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-prev {
+    transform: translateX(-16.7%);
+}
+
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-right,
+.carousel-multi-item .carousel-inner.v-2 .carousel-item-left {
+    transform: translateX(0);
+}
+
+.carousel-control-prev {
+    display: flex;
+}
+
+
+/* TABLE CSS */
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+    bottom: .5em;
+}
+
+.table {
+    margin: 0 auto;
+    width: 60% !important;
+    margin-top: 1%;
+    border: 1px solid;
+    border-color: rgb(50, 46, 66);
+    background-color: rgba(34, 34, 49, 0.5);
+}
+
+.pagination {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pagination>.paginate_button {
+    color: white !important;
+    background-color: white;
+}
+
+.pagination>.paginate_button:hover {
+    color: white !important;
+    background-color: white;
+}
+
+.pagination>.paginate_button.current {
+    color: white !important;
+    background-color: white;
+}
+
+.row>img {
+    margin: 0 auto;
+}
+
+.row>span {
+    margin-top: 10% !important;
+    margin: 0 auto;
+}
+
+
+/* STATS */
+
+.container-stats {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 20%;
+}
+
+#tags {
+    display: flex;
+    margin-top: 3%;
+}
+
+#tags>h6 {
+    margin-left: 2%;
+}
+
+#blurb {
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 90%;
+    text-align: justify;
+    color: white;
+}
+
+#ch-img {
+    height: 70%;
+    border-radius: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#myChart {
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+#chartTitle {
+    margin-top: 8%;
+}

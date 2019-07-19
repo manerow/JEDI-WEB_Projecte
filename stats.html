@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Page Title</title>
+    <!-- MDB CSS-->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet">
+
+
+    <!--Datatables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+
+    <!-- MDB JS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/js/mdb.min.js"></script>
+
+    <!-- DataTables JS -->
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body onload="fillStats()">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="main.html">
+            <img src="img/lol-icon.jpg">
+        </a>
+
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="characters.html"><b>Characters</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html"><b>Home</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <table class="table table-dark container-stats">
+        <tbody>
+            <tr>
+                <td>
+                    <img id="ch-img">
+
+                </td>
+
+                <td>
+                    <table class="table table-dark">
+
+                        <tr class="container-blurb">
+                            <b><h3 id="chName"></h3></b>
+
+                            <p id="blurb"></p>
+                        </tr>
+                        <tr class="container-chart">
+                            <h6 id="chartTitle">Champion Stats</h6>
+                            <canvas id="myChart" style="max-width: 500px;"></canvas>
+                        </tr>
+
+                        <tr class="container-tags">
+                            <h6>Champion Tags</h6>
+                            <div id="tags">
+
+                            </div>
+                        </tr>
+
+                    </table>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
