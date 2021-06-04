@@ -1,5 +1,5 @@
 # JEDI-WEB_Projecte
-Projecte del Curs JediWeb
+Primera aproximació al desenvolupament front-end web amb HTML, CSS i JS. Projecte del Curs JediWeb.
 
 ### A tenir en compte:
 - A la pestanya Characters del nav s'hi trobarà tots els caracters del joc.
